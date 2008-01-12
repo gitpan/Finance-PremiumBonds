@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/1-basic.t
+t/2-pod.t
+t/3-pod-coverage.t
+lib/Finance/PremiumBonds.pm
+META.yml                                 Module meta-data (added by MakeMaker)
