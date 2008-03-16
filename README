@@ -1,4 +1,4 @@
-Finance::PremiumBonds version 0.01
+Finance::PremiumBonds README
 ===========================
 
 A very simple module to look up a Premium Bond holder's number on the
@@ -36,4 +36,4 @@ it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
 
-$Id: README 185 2008-01-10 22:28:51Z davidp $
+$Id: README 295 2008-03-16 18:25:25Z davidp $
