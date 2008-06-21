@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $Id: example.pl 297 2008-03-16 18:30:13Z davidp $
+# $Id: example.pl 380 2008-06-21 14:32:07Z davidp $
 # Simple usage example for Finance::PremiumBonds
 
 use Finance::PremiumBonds;
@@ -13,7 +13,7 @@ if (!$holder_number) {
 
 if (defined(my $won = Finance::PremiumBonds::has_won($holder_number))) 
 {
-    print "Looks like you " . ($won)? 'may have won' : 'have not won';
+    print "Looks like you " . ($won ? 'may have won' : 'have not won') . "\n";
 } else {
     warn "An error occurred.";
 }

@@ -1,5 +1,8 @@
 Revision history for Perl extension Finance::PremiumBonds.
 
+0.03  2008-06-21
+    - fix stupid mistake in example script
+    
 0.02  2008-03-16
     - supply a valid META.yml
     
@@ -7,4 +10,4 @@ Revision history for Perl extension Finance::PremiumBonds.
 	- original version
 
 
-$Id: Changes 295 2008-03-16 18:25:25Z davidp $
+$Id: Changes 380 2008-06-21 14:32:07Z davidp $
