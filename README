@@ -29,11 +29,11 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2008 by David Precious
+Copyright (C) 2008-2009 by David Precious
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
 
-$Id: README 295 2008-03-16 18:25:25Z davidp $
+$Id: README 491 2009-01-05 17:10:49Z davidp $

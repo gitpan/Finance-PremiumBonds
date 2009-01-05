@@ -2,7 +2,7 @@
 
 # Test POD correctness for Finance::PremiumBonds
 #
-# $Id: 2-pod.t 185 2008-01-10 22:28:51Z davidp $
+# $Id: 2-pod.t 444 2008-09-04 18:55:10Z davidp $
 
 use strict;
 use Test::More;

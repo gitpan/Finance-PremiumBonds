@@ -1,6 +1,5 @@
 Changes
 Makefile.PL
-META.yml
 MANIFEST
 README
 t/1-basic.t
@@ -8,3 +7,4 @@ t/2-pod.t
 t/3-pod-coverage.t
 lib/Finance/PremiumBonds.pm
 eg/example.pl
+META.yml                                 Module meta-data (added by MakeMaker)

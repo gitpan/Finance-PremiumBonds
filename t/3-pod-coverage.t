@@ -2,7 +2,7 @@
 
 # Test POD coverage for Finance::PremiumBonds
 #
-# $Id: 3-pod-coverage.t 185 2008-01-10 22:28:51Z davidp $
+# $Id: 3-pod-coverage.t 444 2008-09-04 18:55:10Z davidp $
 
 
 use strict;

@@ -1,6 +1,6 @@
 package Finance::PremiumBonds;
 
-# $Id: PremiumBonds.pm 380 2008-06-21 14:32:07Z davidp $
+# $Id: PremiumBonds.pm 491 2009-01-05 17:10:49Z davidp $
 
 use 5.005000;
 use strict;
@@ -8,7 +8,7 @@ use warnings;
 use WWW::Mechanize;
 use Carp;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 our $checker_url  = 'http://www.nsandi.com/products/pb/haveYouWon.jsp';
 our $agent_string = "Perl/Finance::PremiumBonds $VERSION";
 our $holdernumfield = 'holderNumber';
@@ -40,8 +40,6 @@ sub has_won {
     #$mech->field('check', 'go');
     $mech->submit()
         or  warn "Unable to submit lookup - " . $mech->response->status_line 
-        and return;
-    warn "Content: " . $mech->content . "\n";
     if ($mech->content =~ /holder number must be 10 numbers/msi
      || $mech->content =~ /check your holder's number - it is not valid/msi) 
     {

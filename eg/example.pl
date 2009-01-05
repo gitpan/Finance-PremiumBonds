@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $Id: example.pl 380 2008-06-21 14:32:07Z davidp $
+# $Id: example.pl 444 2008-09-04 18:55:10Z davidp $
 # Simple usage example for Finance::PremiumBonds
 
 use Finance::PremiumBonds;
