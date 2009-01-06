@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Finance-PremiumBonds
-version:            0.04
+version:            0.05
 abstract:           Perl extension to check Premium Bond holder's numbers
 author:
     - David Precious <davidp@preshweb.co.uk>
